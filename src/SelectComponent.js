@@ -109,14 +109,14 @@ const SelectComponent = () => {
           <button
             onClick={() => pushItems(selectedOptions, pushValue.current.value)}
           >
-            <img src="right.png" height={20} width={20} alt="right" />
+            <img src="right.jpeg" height={20} width={20} alt="right" />
           </button>
           <button
             onClick={() =>
               removeOption(selectedOptions, removeValue.current.value)
             }
           >
-            <img src="left.png" height={20} width={20} alt="left" />
+            <img src="left.jpeg" height={20} width={20} alt="left" />
           </button>
         </div>
         <select
